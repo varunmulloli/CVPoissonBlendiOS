@@ -18,7 +18,12 @@
 		8B028CFA171E7A0D0013DB7E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B028CF9171E7A0D0013DB7E /* Default-568h@2x.png */; };
 		8B028CFD171E7A0D0013DB7E /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B028CFB171E7A0D0013DB7E /* MainStoryboard_iPhone.storyboard */; };
 		8B028D00171E7A0D0013DB7E /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B028CFE171E7A0D0013DB7E /* MainStoryboard_iPad.storyboard */; };
-		8B028D03171E7A0D0013DB7E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B028D02171E7A0D0013DB7E /* ViewController.m */; };
+		8B028D03171E7A0D0013DB7E /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8B028D02171E7A0D0013DB7E /* ViewController.mm */; };
+		8B028D0E171E7A740013DB7E /* image1_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B028D0A171E7A740013DB7E /* image1_1.jpg */; };
+		8B028D0F171E7A740013DB7E /* image1_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B028D0B171E7A740013DB7E /* image1_2.jpg */; };
+		8B028D10171E7A740013DB7E /* image2_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B028D0C171E7A740013DB7E /* image2_1.jpg */; };
+		8B028D11171E7A740013DB7E /* image2_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B028D0D171E7A740013DB7E /* image2_2.jpg */; };
+		8B028D13171E7AA60013DB7E /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B028D12171E7AA60013DB7E /* opencv2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,7 +43,13 @@
 		8B028CFC171E7A0D0013DB7E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		8B028CFF171E7A0D0013DB7E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		8B028D01171E7A0D0013DB7E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8B028D02171E7A0D0013DB7E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8B028D02171E7A0D0013DB7E /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		8B028D09171E7A740013DB7E /* poisson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = poisson.h; sourceTree = "<group>"; };
+		8B028D0A171E7A740013DB7E /* image1_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1_1.jpg; sourceTree = "<group>"; };
+		8B028D0B171E7A740013DB7E /* image1_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1_2.jpg; sourceTree = "<group>"; };
+		8B028D0C171E7A740013DB7E /* image2_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image2_1.jpg; sourceTree = "<group>"; };
+		8B028D0D171E7A740013DB7E /* image2_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image2_2.jpg; sourceTree = "<group>"; };
+		8B028D12171E7AA60013DB7E /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = ../../Frameworks/opencv2.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B028D13171E7AA60013DB7E /* opencv2.framework in Frameworks */,
 				8B028CE4171E7A0C0013DB7E /* UIKit.framework in Frameworks */,
 				8B028CE6171E7A0C0013DB7E /* Foundation.framework in Frameworks */,
 				8B028CE8171E7A0C0013DB7E /* CoreGraphics.framework in Frameworks */,
@@ -75,6 +87,7 @@
 		8B028CE2171E7A0C0013DB7E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8B028D12171E7AA60013DB7E /* opencv2.framework */,
 				8B028CE3171E7A0C0013DB7E /* UIKit.framework */,
 				8B028CE5171E7A0C0013DB7E /* Foundation.framework */,
 				8B028CE7171E7A0C0013DB7E /* CoreGraphics.framework */,
@@ -90,7 +103,12 @@
 				8B028CFB171E7A0D0013DB7E /* MainStoryboard_iPhone.storyboard */,
 				8B028CFE171E7A0D0013DB7E /* MainStoryboard_iPad.storyboard */,
 				8B028D01171E7A0D0013DB7E /* ViewController.h */,
-				8B028D02171E7A0D0013DB7E /* ViewController.m */,
+				8B028D02171E7A0D0013DB7E /* ViewController.mm */,
+				8B028D09171E7A740013DB7E /* poisson.h */,
+				8B028D0A171E7A740013DB7E /* image1_1.jpg */,
+				8B028D0B171E7A740013DB7E /* image1_2.jpg */,
+				8B028D0C171E7A740013DB7E /* image2_1.jpg */,
+				8B028D0D171E7A740013DB7E /* image2_2.jpg */,
 				8B028CEA171E7A0C0013DB7E /* Supporting Files */,
 			);
 			path = CVPoissonBlend;
@@ -167,6 +185,10 @@
 				8B028CFA171E7A0D0013DB7E /* Default-568h@2x.png in Resources */,
 				8B028CFD171E7A0D0013DB7E /* MainStoryboard_iPhone.storyboard in Resources */,
 				8B028D00171E7A0D0013DB7E /* MainStoryboard_iPad.storyboard in Resources */,
+				8B028D0E171E7A740013DB7E /* image1_1.jpg in Resources */,
+				8B028D0F171E7A740013DB7E /* image1_2.jpg in Resources */,
+				8B028D10171E7A740013DB7E /* image2_1.jpg in Resources */,
+				8B028D11171E7A740013DB7E /* image2_2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,7 +201,7 @@
 			files = (
 				8B028CF0171E7A0D0013DB7E /* main.m in Sources */,
 				8B028CF4171E7A0D0013DB7E /* AppDelegate.m in Sources */,
-				8B028D03171E7A0D0013DB7E /* ViewController.m in Sources */,
+				8B028D03171E7A0D0013DB7E /* ViewController.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +290,10 @@
 		8B028D07171E7A0D0013DB7E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Frameworks\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CVPoissonBlend/CVPoissonBlend-Prefix.pch";
 				INFOPLIST_FILE = "CVPoissonBlend/CVPoissonBlend-Info.plist";
@@ -279,6 +305,10 @@
 		8B028D08171E7A0D0013DB7E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Frameworks\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CVPoissonBlend/CVPoissonBlend-Prefix.pch";
 				INFOPLIST_FILE = "CVPoissonBlend/CVPoissonBlend-Info.plist";
@@ -306,6 +336,7 @@
 				8B028D08171E7A0D0013DB7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
